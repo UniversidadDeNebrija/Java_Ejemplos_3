@@ -4,8 +4,14 @@ Ejemplos Java utilizados en las clases que imparto en la universidad correspondi
 Ejemplos disponibles:<br>
 <br>
 PATRONES DE CONSTRUCCIÓN
-- **a_Patron_FactoryMethod**: Ejemplo del patrón Factory Method
-- **b_Patron_AbstractFactory**: Ejemplo del patrón Abstract Factory
+- **a_Patron_FactoryMethod**: Ejemplo del patrón Factory Method. Caso de logística.
+
+  ![image](https://github.com/aalonsopuig/Java_Ejemplos_3/assets/57196844/944d4c04-4fc7-4608-94e4-2d1993a34cbb)
+
+- **b_Patron_AbstractFactory**: Ejemplo del patrón Abstract Factory. Caso de mobiliario.
+
+  ![Uploading image.png…]()
+
 - **c_Patron_Singleton**: Ejemplo del patrón Singleton
 - **d_Multimedia_AbstractFactory**: Ejemplo del patrón Abstract Factory para la creación de una fábrica de dispositivos multimedia
 
