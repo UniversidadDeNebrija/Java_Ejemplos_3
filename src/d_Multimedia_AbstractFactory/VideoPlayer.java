@@ -1,22 +1,9 @@
 package d_Multimedia_AbstractFactory;
 
 /**
- * Clase concreta VideoPlayer que implementa MediaPlayer.
+ * Interfaz VideoPlayer que define las operaciones de un reproductor de video.
+ * Esta interfaz será implementada por diferentes tipos de reproductores de video.
  */
-class VideoPlayer implements MediaPlayer {
-    private String type;
-
-    public VideoPlayer(String type) {
-        this.type = type;
-    }
-
-    @Override
-    public void play() {
-        System.out.println("Reproduciendo video " + type + ".");
-    }
-
-    @Override
-    public void pause() {
-        System.out.println("Video " + type + " pausado.");
-    }
+public interface VideoPlayer {
+    void playVideo();
 }

@@ -21,22 +21,25 @@ package d_Multimedia_AbstractFactory;
 
 
 /**
- * Clase principal para probar el patrón Abstract Factory.
+ * Clase principal MainClass para probar el patrón Abstract Factory.
+ * Esta clase demuestra cómo se pueden crear diferentes tipos de reproductores multimedia utilizando distintas fábricas.
  */
 public class MainClass {
     public static void main(String[] args) {
-        MediaFactory factory = new BasicMediaFactory();
-        MediaPlayer myAudioPlayer = factory.createAudioPlayer();
-        MediaPlayer myVideoPlayer = factory.createVideoPlayer();
+        // Uso de la fábrica básica para crear reproductores de audio y video básicos
+        MediaPlayerFactory factory = new BasicMediaPlayerFactory();
+        AudioPlayer basicAudio = factory.createAudioPlayer();
+        VideoPlayer basicVideo = factory.createVideoPlayer();
 
-        myAudioPlayer.play();
-        myVideoPlayer.pause();
+        basicAudio.playAudio();
+        basicVideo.playVideo();
 
-        factory = new AdvancedMediaFactory();
-        myAudioPlayer = factory.createAudioPlayer();
-        myVideoPlayer = factory.createVideoPlayer();
+        // Uso de la fábrica avanzada para crear reproductores de audio y video avanzados
+        factory = new AdvancedMediaPlayerFactory();
+        AudioPlayer advancedAudio = factory.createAudioPlayer();
+        VideoPlayer advancedVideo = factory.createVideoPlayer();
 
-        myAudioPlayer.pause();
-        myVideoPlayer.play();
+        advancedAudio.playAudio();
+        advancedVideo.playVideo();
     }
 }
