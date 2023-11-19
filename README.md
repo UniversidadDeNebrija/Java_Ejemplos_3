@@ -1,15 +1,17 @@
-# Java_Ejemplos_2
-Ejemplos Java utilizados en las clases que imparto en la universidad correspondientes al Tema 2<br>
+# Java_Ejemplos_3
+Ejemplos Java utilizados en las clases que imparto en la universidad correspondientes al Tema 3<br>
 <br>
 Ejemplos disponibles:<br>
 <br>
+PATRONES DE CONSTRUCCIÓN
+- **a_Patron_FactoryMethod**: Ejemplo del patrón Factory Method
+- **b_Patron_AbstractFactory**: Ejemplo del patrón Abstract Factory
+- **c_Patron_Singleton**: Ejemplo del patrón Singleton
+- **d_Multimedia_AbstractFactory**: Ejemplo del patrón Abstract Factory para la creación de una fábrica de dispositivos multimedia
+- **e_Bebidas_FactoryMethod**: Ejemplo del patrón Factory Method para la creación de una fábrica de bebidas
 
-- **a_Herencia**: Ejemplo de aplicación de herencia
-- **b_Abstractas**: Ejemplo de aplicación de clases abstractas
-- **c_Interfaces**: Ejemplo de implementación de Interfaces
-- **d_Polimorfismo**: Ejemplo de Polimorfismo
-- **e_Excepciones_comunes**: Ejemplo de aplicación de Excepciones Comunes
-- **f_Excepciones_propias**: Ejemplo de aplicación de Excepciones propias
-- **g_Metodo_generico_matrices**: Ejemplo de Genericidades
-- **h_Lee_archivo**: Ejemplo de lectura de un fichero de texto
-- **i_lee_y_escribe_archivo**: Ejemplo de lectura y escritura simple de ficheros de texto
+PATRONES ESTRUCTURALES
+
+PATRONES DE COMPORTAMIENTO
+
+
