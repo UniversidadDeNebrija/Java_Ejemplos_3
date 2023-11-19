@@ -6,7 +6,7 @@ Ejemplos disponibles:<br>
 PATRONES DE CONSTRUCCIÓN
 - **a_Patron_FactoryMethod**: Ejemplo del patrón Factory Method. Caso de logística.
 
-
+    ![image](https://github.com/aalonsopuig/Java_Ejemplos_3/assets/57196844/007af998-bc8d-47ed-a256-71a6bc895efa)
 
 - **b_Patron_AbstractFactory**: Ejemplo del patrón Abstract Factory. Caso de mobiliario.
 
