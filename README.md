@@ -14,7 +14,7 @@ PATRONES DE CONSTRUCCIÓN
 
 - **c_Patron_Singleton**: Ejemplo del patrón Singleton
 
-    ![Uploading image.png…]()
+   
 
 - **d_Multimedia_AbstractFactory**: Ejemplo del patrón Abstract Factory para la creación de una fábrica de dispositivos multimedia
 
