@@ -1,5 +1,5 @@
 # Java_Ejemplos_3
-Ejemplos Java utilizados en las clases que imparto en la universidad correspondientes al Tema 3<br>
+Ejemplos Java utilizados en las clases que imparto en la universidad correspondientes al Tema 3 (Patrones de diseño)<br>
 <br>
 Ejemplos disponibles:<br>
 <br>
