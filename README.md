@@ -6,15 +6,15 @@ Ejemplos disponibles:<br>
 PATRONES DE CONSTRUCCIÓN
 - **a_Patron_FactoryMethod**: Ejemplo del patrón Factory Method. Caso de logística.
 
-    ![image](https://github.com/aalonsopuig/Java_Ejemplos_3/assets/57196844/944d4c04-4fc7-4608-94e4-2d1993a34cbb)
+
 
 - **b_Patron_AbstractFactory**: Ejemplo del patrón Abstract Factory. Caso de mobiliario.
 
-    ![image](https://github.com/aalonsopuig/Java_Ejemplos_3/assets/57196844/ed0021b8-b661-40a9-8ae3-55b2ef301ea9)
+    ![image](https://github.com/aalonsopuig/Java_Ejemplos_3/assets/57196844/944d4c04-4fc7-4608-94e4-2d1993a34cbb)    
 
 - **c_Patron_Singleton**: Ejemplo del patrón Singleton
 
-   
+    ![image](https://github.com/aalonsopuig/Java_Ejemplos_3/assets/57196844/ed0021b8-b661-40a9-8ae3-55b2ef301ea9)
 
 - **d_Multimedia_AbstractFactory**: Ejemplo del patrón Abstract Factory para la creación de una fábrica de dispositivos multimedia
 
