@@ -1,0 +1,10 @@
+a_Patron_FactoryMethod
+b_Patron_AbstractFactory
+c_Patron_Singleton
+d_Multimedia_AbstractFactory
+e_Bebidas_FactoryMethod
+f_Patron_Adapter_XMLtoJASON
+g_Patron_Decorator_Coffee
+h_Patron_Decorator_Guerrero
+i_Patron_Chain_of_Responsibility_Aprobaciones
+j_Patron_Observer_Noticias

@@ -1,0 +1,71 @@
+<mxfile host="Electron" modified="2023-11-26T10:44:17.356Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/22.1.2 Chrome/114.0.5735.289 Electron/25.9.4 Safari/537.36" etag="zBSpezD0z0CKokaauSh1" version="22.1.2" type="device">
+  <diagram name="Página-1" id="rvzHeUAt1cWqfYjfpgkG">
+    <mxGraphModel dx="1075" dy="518" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="2namGQlvSJKO8IQ8svBQ-1" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;Interface&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;Coffee&lt;/b&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&amp;nbsp;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ getDescription(): String&lt;br&gt;+ cost(): double&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="210" y="200" width="160" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="2namGQlvSJKO8IQ8svBQ-2" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;SimpleCoffee&lt;/b&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&amp;nbsp;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ getDescription(): String&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;+ cost(): double&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="210" y="360" width="160" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="2namGQlvSJKO8IQ8svBQ-3" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="2namGQlvSJKO8IQ8svBQ-2" target="2namGQlvSJKO8IQ8svBQ-1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="260" y="330" as="sourcePoint" />
+            <mxPoint x="420" y="330" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2namGQlvSJKO8IQ8svBQ-4" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;CoffeeDecorator&lt;/b&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- decoratedCoffee: Coffee&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ CoffeeDecorator(Coffee decoratedCoffee): void&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+&amp;nbsp;getDescription(): String&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ cost(): double&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="400" y="360" width="286" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="2namGQlvSJKO8IQ8svBQ-5" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="2namGQlvSJKO8IQ8svBQ-4" target="2namGQlvSJKO8IQ8svBQ-1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="560" y="290" as="sourcePoint" />
+            <mxPoint x="720" y="290" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="543" y="340" />
+              <mxPoint x="290" y="340" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2namGQlvSJKO8IQ8svBQ-6" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;WithMilk&lt;/b&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&amp;nbsp;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ WithMilk(Coffee decoratedCoffee): void&lt;/p&gt;&lt;p style=&quot;border-color: var(--border-color); margin: 0px 0px 0px 4px;&quot;&gt;+&amp;nbsp;getDescription(): String&lt;/p&gt;&lt;p style=&quot;border-color: var(--border-color); margin: 0px 0px 0px 4px;&quot;&gt;+ cost(): double&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="270" y="560" width="250" height="105" as="geometry" />
+        </mxCell>
+        <mxCell id="2namGQlvSJKO8IQ8svBQ-7" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;WithSugar&lt;/b&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&amp;nbsp;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ WithSugar(Coffee decoratedCoffee): void&lt;/p&gt;&lt;p style=&quot;border-color: var(--border-color); margin: 0px 0px 0px 4px;&quot;&gt;+&amp;nbsp;getDescription(): String&lt;/p&gt;&lt;p style=&quot;border-color: var(--border-color); margin: 0px 0px 0px 4px;&quot;&gt;+ cost(): double&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="560" y="560" width="250" height="105" as="geometry" />
+        </mxCell>
+        <mxCell id="2namGQlvSJKO8IQ8svBQ-9" value="Extends" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="2namGQlvSJKO8IQ8svBQ-6" target="2namGQlvSJKO8IQ8svBQ-4">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="400" y="530" as="sourcePoint" />
+            <mxPoint x="560" y="530" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="395" y="520" />
+              <mxPoint x="543" y="520" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2namGQlvSJKO8IQ8svBQ-10" value="Extends" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="2namGQlvSJKO8IQ8svBQ-7" target="2namGQlvSJKO8IQ8svBQ-4">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="611" y="540" as="sourcePoint" />
+            <mxPoint x="759" y="460" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="685" y="520" />
+              <mxPoint x="543" y="520" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2namGQlvSJKO8IQ8svBQ-12" value="1" style="endArrow=open;html=1;endSize=12;startArrow=diamondThin;startSize=14;startFill=0;edgeStyle=orthogonalEdgeStyle;align=left;verticalAlign=bottom;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="2namGQlvSJKO8IQ8svBQ-4" target="2namGQlvSJKO8IQ8svBQ-1">
+          <mxGeometry x="-1" y="3" relative="1" as="geometry">
+            <mxPoint x="640" y="250" as="sourcePoint" />
+            <mxPoint x="760" y="190" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="720" y="420" />
+              <mxPoint x="720" y="255" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

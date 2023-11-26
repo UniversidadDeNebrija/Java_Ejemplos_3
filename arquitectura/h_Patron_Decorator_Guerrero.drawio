@@ -1,0 +1,80 @@
+<mxfile host="Electron" modified="2023-11-26T14:26:06.590Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/22.1.2 Chrome/114.0.5735.289 Electron/25.9.4 Safari/537.36" etag="SJEW9WjVC1N4hSCsGUne" version="22.1.2" type="device">
+  <diagram name="Página-1" id="rvzHeUAt1cWqfYjfpgkG">
+    <mxGraphModel dx="1195" dy="672" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="2namGQlvSJKO8IQ8svBQ-1" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;Interface&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;Character&lt;/b&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&amp;nbsp;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+&amp;nbsp;equip(): void&amp;nbsp;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="115" y="176" width="160" height="92" as="geometry" />
+        </mxCell>
+        <mxCell id="2namGQlvSJKO8IQ8svBQ-2" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;BasicCharacter&lt;/b&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&amp;nbsp;-&amp;nbsp;name: String&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ BasicCharacter(String name): void&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;+ equip(): void&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="84" y="318" width="222" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="2namGQlvSJKO8IQ8svBQ-3" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="2namGQlvSJKO8IQ8svBQ-2" target="2namGQlvSJKO8IQ8svBQ-1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="196" y="288" as="sourcePoint" />
+            <mxPoint x="356" y="288" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2namGQlvSJKO8IQ8svBQ-4" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;CoffeeDecorator&lt;/b&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- decoratedCoffee: Coffee&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ CoffeeDecorator(Coffee decoratedCoffee): void&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+&amp;nbsp;equip(): void&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="336" y="318" width="286" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="2namGQlvSJKO8IQ8svBQ-5" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="2namGQlvSJKO8IQ8svBQ-4" target="2namGQlvSJKO8IQ8svBQ-1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="496" y="248" as="sourcePoint" />
+            <mxPoint x="656" y="248" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="479" y="298" />
+              <mxPoint x="195" y="298" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2namGQlvSJKO8IQ8svBQ-6" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;SwordDecorator&lt;/b&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&amp;nbsp;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ SwordDecorator(Character character): void&lt;/p&gt;&lt;p style=&quot;border-color: var(--border-color); margin: 0px 0px 0px 4px;&quot;&gt;+&amp;nbsp;equip(): void&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="187" y="485" width="250" height="105" as="geometry" />
+        </mxCell>
+        <mxCell id="2namGQlvSJKO8IQ8svBQ-9" value="Extends" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="2namGQlvSJKO8IQ8svBQ-6" target="2namGQlvSJKO8IQ8svBQ-4">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="336" y="488" as="sourcePoint" />
+            <mxPoint x="496" y="488" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="312" y="450" />
+              <mxPoint x="479" y="450" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2namGQlvSJKO8IQ8svBQ-10" value="Extends" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="2namGQlvSJKO8IQ8svBQ-13" target="2namGQlvSJKO8IQ8svBQ-4">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="620.9999999999998" y="518" as="sourcePoint" />
+            <mxPoint x="695" y="418" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="638" y="450" />
+              <mxPoint x="479" y="450" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2namGQlvSJKO8IQ8svBQ-12" value="1" style="endArrow=open;html=1;endSize=12;startArrow=diamondThin;startSize=14;startFill=0;edgeStyle=orthogonalEdgeStyle;align=left;verticalAlign=bottom;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="2namGQlvSJKO8IQ8svBQ-4" target="2namGQlvSJKO8IQ8svBQ-1">
+          <mxGeometry x="-1" y="3" relative="1" as="geometry">
+            <mxPoint x="576" y="208" as="sourcePoint" />
+            <mxPoint x="696" y="148" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="656" y="363" />
+              <mxPoint x="656" y="222" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2namGQlvSJKO8IQ8svBQ-13" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;ArmorDecorator&lt;/b&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&amp;nbsp;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ ArmorDecorator(Character character): void&lt;/p&gt;&lt;p style=&quot;border-color: var(--border-color); margin: 0px 0px 0px 4px;&quot;&gt;+&amp;nbsp;equip(): void&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="513" y="485" width="250" height="105" as="geometry" />
+        </mxCell>
+        <mxCell id="2namGQlvSJKO8IQ8svBQ-14" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;ShieldDecorator&lt;/b&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&amp;nbsp;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ ShieldDecorator(Character character): void&lt;/p&gt;&lt;p style=&quot;border-color: var(--border-color); margin: 0px 0px 0px 4px;&quot;&gt;+&amp;nbsp;equip(): void&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="352" y="608" width="250" height="105" as="geometry" />
+        </mxCell>
+        <mxCell id="2namGQlvSJKO8IQ8svBQ-15" value="Extends" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="2namGQlvSJKO8IQ8svBQ-14" target="2namGQlvSJKO8IQ8svBQ-4">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="474" y="628" as="sourcePoint" />
+            <mxPoint x="634" y="628" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

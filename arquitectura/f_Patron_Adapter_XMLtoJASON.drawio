@@ -1,0 +1,40 @@
+<mxfile host="Electron" modified="2023-11-26T09:31:51.226Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/22.1.2 Chrome/114.0.5735.289 Electron/25.9.4 Safari/537.36" etag="PpGQIfPbtQmP0TLYGET-" version="22.1.2" type="device">
+  <diagram name="Página-1" id="Xl2nGIs_hxnlmKVsQzl2">
+    <mxGraphModel dx="1272" dy="603" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="RZQP3PepiUhibkyTAsHE-1" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;Interface&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;JsonProcessor&lt;/b&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&amp;nbsp;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ processJson(String jsonData): void&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="320" y="120" width="221" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="RZQP3PepiUhibkyTAsHE-2" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;XmlData&lt;/b&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- xmlData: String&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ XmlData(String xmlData): void&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+&amp;nbsp;getXmlData(): String&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="620" y="350" width="190" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="RZQP3PepiUhibkyTAsHE-3" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;XmlToJsonAdapter&lt;/b&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- xmlData: XmlData&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ XmlToJsonAdapter(XmlData xmlData): void&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+&amp;nbsp;processJson(String jsonData): void&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;-&amp;nbsp;convertXmlToJson(String xmlData): String&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="295.5" y="340" width="270" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="RZQP3PepiUhibkyTAsHE-4" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;Client&lt;/b&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- jsonProcessor: JsonProcessor&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ Client(JsonProcessor jsonProcessor): void&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+&amp;nbsp;process(String jsonData): void&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="20" y="125" width="250" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="RZQP3PepiUhibkyTAsHE-6" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="RZQP3PepiUhibkyTAsHE-3" target="RZQP3PepiUhibkyTAsHE-1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="210" y="600" as="sourcePoint" />
+            <mxPoint x="370" y="600" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RZQP3PepiUhibkyTAsHE-7" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="RZQP3PepiUhibkyTAsHE-4" target="RZQP3PepiUhibkyTAsHE-1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="220" y="280" as="sourcePoint" />
+            <mxPoint x="380" y="280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RZQP3PepiUhibkyTAsHE-9" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="RZQP3PepiUhibkyTAsHE-3" target="RZQP3PepiUhibkyTAsHE-2">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="280" y="185" as="sourcePoint" />
+            <mxPoint x="330" y="180" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
